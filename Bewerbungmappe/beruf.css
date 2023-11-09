@@ -1,0 +1,31 @@
+#beruf_section{
+    padding: 100px 0;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.beruf_container{
+    width: 750px;
+    max-width: 90%;
+}
+.beruf_container h2{
+    font-size: 60px;
+    text-align: center;
+}
+.beruf_container p{
+    margin-top: 50px;
+    text-align: center;
+    line-height: 175%;
+}
+@media(max-width: 800px){
+    #beruf_section{
+        padding: 50px 0;
+    }
+    #beruf_section h2{
+        text-align: center;
+        font-size: 12vw;
+    }
+    
+}
